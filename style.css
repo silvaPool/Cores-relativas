@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 400px;
+    height: 400px;
+    background: #FF0000;
+    margin: 1em auto 2em;
+    border: 5px solid #000;
+}
+
+.wrapper:hover {
+    background-color: hsl(from #FF0000 h s calc(l + 10));
+    border-color: rgba(from #000 r g b / 0.1);
+}
+
+/* .header {
+    padding: 10px;
+    border-bottom: 5px solid black;
+    background-color: hsl(from var(--color-primary) h s calc(l - 10));
+}
+
+.header:hover {
+    border-color: hsl(from #9333ea h s calc(l + 10));
+} */
